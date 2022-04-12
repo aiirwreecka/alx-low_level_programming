@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet in reverse
  *
  * Return: Always 0 (Success/correct)
  */
 
 int main(void)
 {
-	char smile;
+	char c;
 	
-	for (smile = 122 ; smile >= 97; smile--)
+	for (c = 'z'; smile >= 'a'; c--)
 	{
-		putchar(smile);
+		putchar(c);
 	}
 
 	putchar('\n')
