@@ -10,7 +10,7 @@ int main(void)
 {
 	char smile;
 	
-	for (smile = 122 ; smile >= 97; smile++)
+	for (smile = 122 ; smile >= 97; smile--)
 	{
 		putchar(smile);
 	}
